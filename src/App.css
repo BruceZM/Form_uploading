@@ -1,0 +1,172 @@
+
+.App-logo {
+  height: 40vmin;
+}
+
+.login-input{
+  box-shadow: 0px 3px 3px #e8e6e6;
+  border-radius: 10px
+}
+.login-input input{
+  border-radius: 10px
+}
+.App-link {
+  color: #09d3ac;
+}
+
+.loginWraper{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: url(http://cdnimg.yijiahaohuo.com/activity/a91e0f1337f472101953c2780a59ea0c.jpeg?imageslim);
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.loginWraper>img{
+  width: 100%;
+  height: 630px;
+  object-fit: cover;
+  display: block
+}
+.loginWraper form{
+  margin:36vh auto 0 auto;
+  max-width: 500px;
+  background: #fff;
+  padding: 30px 50px;
+  
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0px 3px 3px #e8e6e6;
+}
+.get_v_code{
+  padding: 3px 5px;
+  border: 1px solid #09d3ac;
+  border-radius: 8px;
+  margin-right: 13px;
+  color: #09d3ac;
+  cursor: pointer
+}
+.login-title{
+  text-align: center
+}
+.loginWraper .login-form-button{
+  
+  box-shadow: 0px 2px 2px #44baae;
+  font-size: 16px;
+  border-radius: 13px;
+  margin-top: 80px
+}
+.top-fixed-menu{
+  height: 68px;
+  width: 100vw;
+  background-color: #55C5B5
+}
+.top-middle-content{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between
+}
+.logo-intro{
+  display: flex;
+}
+.logo-intro img{
+  width: 42px;
+  height: 42px;
+}
+.logo-intro h3{
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff;
+}
+.personal-info{
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.personal-info p{
+  padding: 0 10px;
+  margin: 0
+}
+.content{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:70px 30px 50px 30px;
+}
+.btn-menu{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around
+}
+.download-wrap{
+  margin-top: 120px;
+  text-align: center
+}
+.download-wrap img{
+  width: 200px;
+}
+.next-step{
+  margin:0 auto;
+  width:150px;
+  margin-top:100px
+}
+.goods-wrap{
+  position: relative;
+}
+.goods-wrap-checkbox{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  z-index: 300
+}
+.goods-wrap img{
+  width: 100%
+}
+.forms-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 5px 15px;
+  border: 1px solid #CFCFCF;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #4A4A4A
+}
+.forms-box>span{
+  align-self: flex-end;
+  color: #C83B4C
+}
+.forms-box .forms-box-middle{
+  display: flex;
+  margin: 10px 0;
+}
+.forms-box-middle p{
+  margin-left: 15px;
+  font-weight: bold;
+  align-self: center;
+  height: 43px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.forms-box img{
+  width: 40px;
+  height: 40px;
+}
+.upload-time{
+  margin-bottom: 5px
+}
+#root .disabled-button{
+  background-color:#BDBDBD;
+  border-color:#BDBDBD;
+  color:#fff
+}
